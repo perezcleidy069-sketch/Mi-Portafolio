@@ -29,6 +29,7 @@
     color: var(--letters);
     letter-spacing: 1px;
     font-weight: 200;
+    align-items: center;
     animation-name: rotate;
     animation-duration: 0.7s;
     animation-direction: alternate-reverse;
@@ -42,7 +43,7 @@
     }
 }
 
-#fondo__pricipal {
+#fondo {
     background-color: var(--color-first);
     animation-name: animacion;
     animation-duration: 5s;
@@ -65,3 +66,26 @@
     justify-items: center;
 
 }
+
+.nav a{
+    position: relative;
+    left: 465px;
+    top: 15px;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.personal__avatar{
+    width: 380px;
+    height: 250px;
+    position: relative;
+    right:3px;
+
+}
+
+
