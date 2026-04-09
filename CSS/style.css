@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Instrument+Serif:ital@0;1&display=swap');
+:root{
+    --color-first: #e5097f;
+    --second: #e92c91;
+    --third: #f252a7;
+    --fourth: #fb7ec1;
+    --fifth:#fdb5db;
+    --letter: #D4AF37;
+    --letters: #F5F5DC;
+    --secondletters: white;
+    --text: #646464; 
+    
+    --text-head: "Great Vibes", cursive;
+    --text-words: "Instrument Serif", serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main__introducciontittle{
+    font-family: var(--text-head);
+    text-align: center;
+    margin-top: 200px;
+    font-size: 66px;
+    color: var(--letters);
+    letter-spacing: 1px;
+    font-weight: 200;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: alternate-reverse;
+}
+@keyframes rotate{
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+#fondo__pricipal {
+    background-color: var(--color-first);
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacion{
+    0% {background-color: var(--color-first);}
+    25% {background-color: #f70071;}
+    50% {background-color: #ff5aa4;}
+    60% {background-color: var(--second);}
+}
+
+.nav__link{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid var(--letters);
+    padding: 5px 10px;
+    border-radius: 10px;
+    justify-items: center;
+
+}
