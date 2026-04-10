@@ -94,6 +94,78 @@
 }
 
 /* Estilo de skills.html*/
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 
+#habil{
+    background-color: var(--letters);
+    min-height: 100hv;
+}
+
+.navis__link{
+    color: var(--letters);
+    text-decoration: none;
+    
+}
+
+.navis__items{
+    color:var(--letters);
+    border:var(--letters) 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 13px;
+}
+
+.menu{
+    display: flex;
+    margin: 3px solid var(--color-first);
+    position: -webkit-sticky;
+    position:sticky;
+    z-index: 100;
+    padding: 1rem 0;
+    box-shadow: 0px 1px 10px;
+    background-color: var(--color-first);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.title__skill{
+    font-family: var(--text-head);
+    color: var(--fourth);
+    font-size: 50px;
+    text-align: center;
+    padding: 12px;
+}
+.skills__list{
+    font-family: var(--text-words);
+    font-size: 20px;
+    padding: 12px;
+
+}
+
+.skill__itme{
+    padding: 12px;
+    text-decoration: none;
+}
+
+.piedpagia{
+    display: flex;
+    margin: 3px solid var(--color-first);
+    position: -webkit-sticky;
+    position:sticky;
+    z-index: 100;
+    padding: 1rem 0;
+    background-color: var(--fifth);
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 12px;
+}
 
 
