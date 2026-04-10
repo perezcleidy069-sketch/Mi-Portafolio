@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Instrument+Serif:ital@0;1&display=swap');
+/*Styles of index */
+:root{
+    --color-first: #e5097f;
+    --second: #e92c91;
+    --third: #f252a7;
+    --fourth: #fb7ec1;
+    --fifth:#fdb5db;
+    --letter: #D4AF37;
+    --letters: #F5F5DC;
+    --secondletters: white;
+    --text: #646464; 
+    
+    --text-head: "Great Vibes", cursive;
+    --text-words: "Instrument Serif", serif;
+}
+/* Styles for infomation.html*/
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#estilo{
+    min-height: 100vh;
+    background-color:#F2EBE3;
+
+}
+.headers{
+    display: flex;
+    margin: 3px solid var(--fifth);
+    position: -webkit-sticky;
+    position:sticky;
+    z-index: 100;
+    padding: 1rem 0;
+    box-shadow: 0px 1px 10px;
+    background-color: #e5097f;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.navig__link{
+    color:#F5F5DC;
+    text-decoration: none;
+}
+
+.navig__items{
+    border: 2px solid var(--fifth);
+    border-radius: 10px;
+    padding: 5px 13px;
+    display: inline-block;
+}
+
+.card__subtitle{
+    font-family: var(--text-head);
+    color: #e92c91;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+
+}
+.question{
+    font-family: var(--text-words);
+    font-size: 30px;
+    border: 1px solid #fb7ec1 ;
+    width: 500px;
+    background-color: #fdb5db;
+    padding-left: 12px;
+}
+
+.respond{
+    font-family: var(--text-words);
+    font-size: 20px;
+    padding: 12px;
+}
+
+#lista{
+    padding-left: 35px;
+    padding-top: 1px;
+    list-style-type:circle;
+}
+#lista1{
+    padding-left: 35px;
+    list-style-type:square;
+}
+.responds{
+    padding: 12px;
+    font-family: var(--text-words);
+    font-size: 25px;
+}
+
