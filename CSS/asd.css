@@ -113,17 +113,12 @@
     background-color: var(--letters);
     min-height: 100hv;
 }
-.imagen__enlance{
-    height: 25px;
-    width: 25px;
-    display: inline-block;
-    
-}
+
 
 #logo__navi{
     border: none;
 }
-.navi__link{
+.navis__link{
     color: var(--letters);
     text-decoration: none;
     
