@@ -21,11 +21,20 @@
     padding: 0;
     margin: 0;
 }
+.imagen__enlance{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    
+}
 
+#logo__navi{
+    border: none;
+}
 .main__introducciontittle{
     font-family: var(--text-head);
     text-align: center;
-    margin-top: 200px;
+    margin-top: 130px;
     font-size: 66px;
     color: var(--letters);
     letter-spacing: 1px;
@@ -64,14 +73,20 @@
     border: 2px solid var(--letters);
     padding: 5px 10px;
     border-radius: 10px;
-    justify-items: center;
+    
+    width: 150px;
 
 }
 
+.nav__item{
+    text-align: center;
+}
+
 .nav a{
+    display: inline-block;
     position: relative;
-    left: 465px;
-    top: 15px;
+   
+
 }
 /*styles of presentation.hmtl*/
 * {
@@ -192,4 +207,21 @@
     height: 100px;
     
     
+}
+
+@media(min-width:800px){
+    .container{
+        background-color: white;
+    }
+}
+
+@media(min-width:800px) and (max-width:1280px){
+    .container{
+        background-color: #fdb5db;
+    }
+}
+@media(min-withd:1280px){
+    .container{
+        background-color: #fdb5db;
+    }
 }
